@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
   resources :products
   devise_for :users
-  root to: "pages#home"
+  # root to: "pages#home"
+  root to: "products#index"
   resources :questions, only: [:index, :create]
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 

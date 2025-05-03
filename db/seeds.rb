@@ -1,7 +1,7 @@
 puts "Clearing existing products..."
 Product.destroy_all
 
-puts "Seeding common plant seeds..."
+puts "Seeding common plant seeds 🧑‍🌾 ..."
 
 seed_products = [
   {
@@ -58,6 +58,7 @@ seed_products = [
 
 seed_products.each do |product|
   Product.create!(product)
+  # sleep 5
 end
 
 puts "Seed products created: #{Product.count}"
