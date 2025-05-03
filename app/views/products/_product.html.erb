@@ -1,5 +1,6 @@
 <div id="<%= dom_id product %>" class="card-product mb-5">
-  <img src="" />
+    <%= image_tag product.image_url, alt: product.name, class: "w-40 h-40 object-cover rounded" %>
+
     <div class="card-product-infos">
       <p>
         <strong>Name:</strong>

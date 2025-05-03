@@ -1,6 +1,6 @@
 .chatbot {
   background: white;
-  margin-top: 9px;
+  margin-top: 0;
   height: calc(100vh - 75px);
   display: flex;
   flex-direction: column;
@@ -35,7 +35,7 @@
 
   .user-question {
     align-self: flex-start;
-    background: $blue;
+    background: $green;
     color: $light-gray;
   }
 
